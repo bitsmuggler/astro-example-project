@@ -1,6 +1,8 @@
-# Astro Example Project: Basics
+# Understanding some basic concept of the Astro framework
 
-Try to understand the basic concepts with this small astro & react project.
+Build a interactive cart with Astro and React.
+
+Product page is built with Astro (static generated) and cart is built with React (client side interactivity).
 
 ## 🚀 Project Structure
 
