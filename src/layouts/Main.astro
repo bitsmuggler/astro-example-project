@@ -1,0 +1,15 @@
+---
+import CartFlyout from '../components/cart/CartFlyout'
+---
+
+<section class="main">
+    <slot />
+    <CartFlyout client:load />
+</section>
+<style>
+	.main {
+		display: flex;
+		flex-direction: row;
+		margin: 20px;
+	}
+</style>

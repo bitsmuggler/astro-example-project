@@ -1,0 +1,19 @@
+---
+import CartOpener from "../cart/CartOpener";
+import Logo from "./Logo.astro";
+---
+<header>
+    <Logo />
+    <p>Header</p>
+    <CartOpener client:idle />
+</header>
+
+<style>
+	header {
+		display: flex;
+		flex-direction: row;
+        justify-content: space-between;
+		margin: 0;
+	}
+</style>
+  
